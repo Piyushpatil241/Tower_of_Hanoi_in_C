@@ -110,7 +110,7 @@ int main(){
         moveElement(&C, &B);
       else
         printf("Invalid move selection.\n");
-      break;  s
+      break;  
 
       default: printf("Invalid source stack input!!");
     }
