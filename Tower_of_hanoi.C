@@ -34,7 +34,7 @@ int pop(struct Node **top){
 void display(struct Node *top){
   struct Node* temp = top;
   while(temp != NULL){ 
-    printf("%d ",temp->data);
+    printf("\n%d",temp->data);
     temp = temp->next;
   }
 }
@@ -110,7 +110,7 @@ int main(){
         moveElement(&C, &B);
       else
         printf("Invalid move selection.\n");
-      break;  s
+      break;  
 
       default: printf("Invalid source stack input!!");
     }
